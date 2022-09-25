@@ -1,0 +1,485 @@
+        * {
+
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+
+        }
+
+        .logoWhatsapp {
+
+            height: 75px;
+            width: 75x;
+            position: fixed;
+            bottom: 3%;
+            right: 3%;
+        }
+
+        header {
+
+            background-color: #FFF2D7;
+            padding: 10px;
+            padding-bottom: 60px;
+
+        }
+        
+        header h1 {
+
+            text-align: center;
+            color: #8A84B3;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-bottom: 40px;
+        }
+
+        header a {
+
+            text-align: center;
+            text-decoration: none;
+            background-color: #8A84B3;
+            color: white;
+            border-radius: 10px;
+            padding: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header a:hover {
+            background-color: #D1C9FF;
+        }
+        header img {
+
+            padding-bottom: 10px;
+            width: 75%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .meLlamo {
+
+            background-color: white;
+            padding: 10px;
+            padding-bottom: 30px;
+
+        }
+
+        .meLlamo h2 {
+
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding-bottom: 10px;
+            
+        }
+
+        .meLlamo h3 {
+
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding-bottom: 10px;
+
+        }
+
+        .meLlamo img {
+
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+
+        }
+
+    .meLlamo p {
+
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        color: #434343;
+
+        }
+
+    .miEstudio {
+
+        background-image: url(./estudio.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .miEstudio h2 {
+
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 50px;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+
+    .separadorVioleta {
+
+        background-color: #8A84B3;
+        height: 40px;
+    }
+
+    .opinionesColegas {
+
+        background-color: white;
+        padding: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .opinionesColegas h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+
+    }
+
+    .opinionesColegas h3 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+
+    }
+
+    .flexbox    {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 5% 20px 5%;
+
+    }
+
+    .comentarioPatricio {
+
+        display: block;
+        padding: auto;
+        text-align: center;
+        width: 30%;
+        min-width: 300px;
+    }
+
+    .comentarioPatricio img {
+
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .comentarioPatricio p {
+
+        font-style: italic;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: gray;
+
+    }
+
+    .comentarioPatricio h4 {
+
+        font-size: x-large;
+        color: #A8B2B3;
+        padding-bottom: 5px; 
+
+    }
+
+    .comentarioPatricio h5 {
+
+        font-size: larger;
+        color: #8A84B3;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+
+    .comentarioDiego {
+
+        display: block;
+        padding: auto;
+        text-align: center;
+        width: 30%;
+        min-width: 300px;
+
+    }
+
+    .comentarioDiego img {
+
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .comentarioDiego p {
+
+        font-style: italic;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: gray;
+
+    }
+
+    .comentarioDiego h4 {
+
+        font-size: x-large;
+        color: #A8B2B3;
+        padding-bottom: 5px; 
+        
+    }
+
+    .comentarioDiego h5 {
+
+        font-size: larger;
+        color: #8A84B3;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+
+    .comentarioHideo {
+
+        display: block;
+        padding: auto;
+        text-align: center;
+        width: 30%;
+        min-width: 300px;
+
+    }
+
+    .comentarioHideo img {
+
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .comentarioHideo p {
+
+        font-style: italic;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: gray;
+
+    }
+
+    .comentarioHideo h4 {
+
+        font-size: x-large;
+        color: #A8B2B3;
+        padding-bottom: 5px; 
+        
+    }
+
+    .comentarioHideo h5 {
+
+        font-size: larger;
+        color: #8A84B3;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+
+.misTattoo {
+
+
+    background-color: #A8B2B3;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+
+}
+
+.containerTattoo {
+
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+    grid-gap: 15px;
+
+}
+
+.boxTattoo figure {
+
+    width: 100%;
+    height: 100%;
+
+}
+.boxTattoo img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.boxTattoo:nth-child(1) {
+
+    grid-column-start: span 2;
+
+}
+
+.boxTattoo:nth-child(4) {
+
+    grid-row-start: span 2;
+
+}
+
+
+    
+
+
+    @media screen and (min-width: 300px) {
+
+        header img {
+            padding-bottom: 10px;
+            width: 100%;
+            display: block;
+            margin:auto;
+        }
+
+        header a {
+
+            text-align: center;
+            text-decoration: none;
+            background-color: #8A84B3;
+            color: white;
+            border-radius: 10px;
+            padding: 10px;
+            display: block;
+            margin: auto;
+            width: 80%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-large;
+        }
+
+        .meLlamo p {
+
+            background-color: white;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: x-large;  
+        }
+
+        .meLlamo img {
+
+            display: block;
+            margin: auto;
+            width: 50%;
+            padding-top: 15px;
+
+        }
+
+        .meLlamo h2 {
+
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding-bottom: 10px;
+            padding-top: 15px;
+            font-size: xx-large;
+            
+        }
+
+        .meLlamo h3 {
+
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: x-large;
+        
+        }
+
+        .miEstudio {
+
+            background-image: url(./estudio.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;
+            display: table;
+        }
+
+        .miEstudio h2 {
+
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+            padding: 20px 20px 20px 20px;
+            color: white;
+            text-shadow: 1px 1px black;
+            font-size: 45px;
+        }
+
+        .opinionesColegas h2 {
+
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding-bottom: 10px;
+            padding-top: 15px;
+            font-size: xx-large;
+            
+        }
+
+        .opinionesColegas h3 {
+
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: x-large;
+        
+        }
+
+        .comentarioHideo p {
+
+            font-style: italic;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: gray;
+            font-size: larger;
+    
+        }
+
+        .comentarioDiego p {
+
+            font-style: italic;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: gray;
+            font-size: larger;
+        }
+
+        .comentarioPatricio p {
+
+            font-style: italic;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: gray;
+            font-size: larger;
+        }
+
+        .containerTattoo {
+
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+
+        }
+
+        .boxTattoo img {
+
+            height: 200px;
+            
+
+        }
+        
+    }
