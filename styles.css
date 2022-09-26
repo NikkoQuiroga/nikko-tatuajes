@@ -49,7 +49,11 @@
 
         header a:hover {
             background-color: #D1C9FF;
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+
         }
+
         header img {
 
             padding-bottom: 10px;
@@ -88,7 +92,7 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 40%;
+            width: 30%;
 
         }
 
@@ -297,17 +301,26 @@
 
 }
 
+.fondoContainer {
+
+    background-image: url(./pattern.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+
 .containerTattoo {
 
     width: 100%;
     max-width: 1100px;
     margin: auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 250px;
-    grid-gap: 15px;
+    grid-template-rows: 200px;
+    grid-gap: 5px;
 
 }
 
@@ -324,6 +337,7 @@
     object-fit: cover;
 
 }
+
 .boxTattoo:nth-child(1) {
 
     grid-column-start: span 2;
@@ -336,6 +350,72 @@
 
 }
 
+
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+figure {
+	width: 300px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+
+
+/* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
 
     
 
