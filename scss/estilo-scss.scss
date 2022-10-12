@@ -1,0 +1,62 @@
+@import 'mellamo';
+
+$amarillo-claro: #FFF2D7;
+$violeta-claro: #8A84B3;
+$lila-claro: #D1C9FF;
+
+header {
+
+    background-color: $amarillo-claro;
+    padding: 10px;
+    padding-bottom: 60px;
+
+    h1 {
+
+    text-align: center;
+    color: $violeta-claro;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 40px;
+    }
+
+    img {
+
+    width: 100%;
+    
+    }
+
+    a {
+
+    text-align: center;
+    text-decoration: none;
+    background-color: $violeta-claro;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    a:hover {
+    
+    background-color: $lila-claro;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+    }
+
+    img {
+
+    padding-bottom: 10px;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+
+}
