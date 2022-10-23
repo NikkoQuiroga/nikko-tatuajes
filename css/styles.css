@@ -1,0 +1,3372 @@
+/* Comienza la sección Smartphone */
+/* Comienza la sección Smartphone */
+/* Comienza la sección Smartphone */
+
+* {
+
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%
+}
+
+html,
+body {
+
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+
+  background-color: #FFF2D7;
+  width: 100%;
+  margin-bottom: 0;
+
+}
+
+header h1 {
+
+  text-align: center;
+  color: #728CB3;
+  font-size: x-large;
+  padding: 0px 10px 30px 10px;
+  letter-spacing: 1.5;
+}
+
+#contenedorDesktop {
+
+  width: 100%;
+  box-shadow: none;
+
+}
+
+/* CSS del Navbar */
+
+
+#navbar img {
+  float: left;
+  width: 170px;
+  margin-left: 10px;
+
+}
+
+#navbar {
+  background-color: #403C36;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 4;
+  filter: opacity(90%);
+}
+
+#navbar span {
+
+  font-size: 35px;
+  cursor: pointer;
+  color: white;
+  float: right;
+  margin-right: 10px;
+
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#navbar a:hover {
+  background-color: #BFB5A1;
+  color: black;
+  transition: 0.3s;
+
+}
+
+
+/* Fin de Css el Navbar */
+
+.main img {
+
+  width: 100%;
+  padding-bottom: 0px;
+
+}
+
+.nikko img {
+
+  padding-top: 0px;
+  width: 90%;
+  display: block;
+  margin: auto;
+
+}
+
+.barra img {
+
+  width: 100%;
+
+}
+
+#contenedorRaijin {
+
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  top: 430px;
+  left: -10px;
+  z-index: 1;
+
+}
+
+.acerRaijin {
+
+  position: relative;
+  left: 0%;
+  top: 0%;
+
+}
+
+.raijin img {
+
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  top: 40px;
+  left: -110px;
+  z-index: 1;
+
+}
+
+.acerUno img {
+
+  position: absolute;
+  z-index: 2;
+  height: 90px;
+  width: 90px;
+  top: 50px;
+  left: -10px;
+  animation-name: acerUno;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes acerUno {
+  0% {
+    left: -10px;
+    top: 50px;
+  }
+
+  25% {
+    left: -14px;
+    top: 53px;
+  }
+
+  50% {
+    left: -7px;
+    top: 49px;
+  }
+
+  75% {
+    left: -6px;
+    top: 52px;
+  }
+
+  100% {
+    left: -10px;
+    top: 50px;
+  }
+}
+
+.acerDos img {
+
+  position: absolute;
+  z-index: 3;
+  height: 115px;
+  width: 115px;
+  top: 200px;
+  left: 150px;
+  animation-name: acerDos;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes acerDos {
+  0% {
+    left: 274px;
+    top: 10px;
+  }
+
+  25% {
+    left: 272x;
+    top: 13px;
+  }
+
+  50% {
+    left: 270px;
+    top: 10x;
+  }
+
+  75% {
+    left: 267px;
+    top: 7px;
+  }
+
+  100% {
+    left: 274px;
+    top: 10px;
+  }
+
+}
+
+
+.acerTres img {
+
+  position: absolute;
+  z-index: 2;
+  height: 80px;
+  width: 80px;
+  top: 0px;
+  left: 0px;
+  animation-name: acerTres;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes acerTres {
+  0% {
+    left: 260px;
+    top: 130px;
+  }
+
+  25% {
+    left: 265px;
+    top: 135px;
+  }
+
+  50% {
+    left: 270px;
+    top: 130px;
+  }
+
+  75% {
+    left: 265px;
+    top: 135px;
+  }
+
+  100% {
+    left: 260px;
+    top: 130px;
+  }
+}
+
+.quienSoy {
+
+  width: 100%;
+  position: relative;
+  margin: auto;
+  background-color: #D6E6FF;
+  padding-bottom: 30px;
+
+}
+
+#acerCuatro img {
+
+  position: absolute;
+  z-index: 2;
+  width: 105px;
+  top: 10px;
+  left: 60px;
+  animation-name: acerCuatro;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes acerCuatro {
+  0% {
+    left: 60px;
+    top: 280px;
+  }
+
+  25% {
+    left: 65px;
+    top: 290px;
+  }
+
+  50% {
+    left: 59px;
+    top: 285px;
+  }
+
+  75% {
+    left: 67px;
+    top: 293px;
+  }
+
+  100% {
+    left: 60px;
+    top: 280px;
+  }
+}
+
+#acerCinco img {
+
+  position: absolute;
+  z-index: 2;
+  width: 105px;
+  top: 10px;
+  left: 60px;
+  animation-name: acerCinco;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes acerCinco {
+  0% {
+    left: 270px;
+    top: 160px;
+  }
+
+  25% {
+    left: 275px;
+    top: 165px;
+  }
+
+  50% {
+    left: 269px;
+    top: 159px;
+  }
+
+  75% {
+    left: 274px;
+    top: 163px;
+  }
+
+  100% {
+    left: 270px;
+    top: 160px;
+  }
+}
+
+.quienSoy img {
+
+  width: 60%;
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+
+}
+
+.quienSoy h2 {
+
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px 10px 0px 10px;
+
+}
+
+.quienSoy h3 {
+
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+
+.quienSoy p {
+
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  font-size: large;
+  padding-bottom: 20px;
+}
+
+
+
+.vimeo {
+
+  background: #D6E6FF;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+  padding: 56.25% 0 0;
+  position: relative;
+
+}
+
+/* Css de los tipos de tattoo*/
+
+.tipoTattoo {
+
+  background-color: #B3A384;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+
+}
+
+.tipoTattoo h2 {
+
+  color: #FFFAF0;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+
+.tipoTattoo h3 {
+
+  text-align: center;
+  padding-bottom: 20px;
+  color: #FFFAF0;
+
+}
+
+.tipoTattoo a {
+
+  text-align: center;
+  text-decoration: none;
+  background-color: #FFF2D7;
+  color: #403C36;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: larger;
+  width: 85%;
+  margin-top: 10px;
+  transition: 0.3s;
+
+}
+
+.tipoTattoo a:hover {
+  background-color: #FFFAF0;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+
+
+}
+
+.tipoTattoo li {
+
+  color: white;
+  padding-bottom: 5px;
+
+}
+
+.flexboxDos {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 5% 20px 5%;
+
+}
+
+.tebori {
+
+  display: block;
+  padding: auto;
+  text-align: center;
+  width: 30%;
+  min-width: 300px;
+}
+
+.tebori img {
+
+  width: 200px;
+  height: 200px;
+
+}
+
+.tebori p {
+
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #FFFAF0;
+
+}
+
+.tebori h4 {
+
+  font-size: x-large;
+  color: #FFF2D7;
+  padding-bottom: 5px;
+
+}
+
+.maquina {
+
+  display: block;
+  padding: auto;
+  text-align: center;
+  width: 30%;
+  min-width: 300px;
+
+}
+
+.maquina img {
+
+  width: 200px;
+  height: 200px;
+  padding-bottom: 20px;
+
+}
+
+.maquina p {
+
+  font-style: italic;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  color: #FFFAF0;
+
+}
+
+.maquina h4 {
+
+  font-size: x-large;
+  color: #FFF2D7;
+  padding-bottom: 5px;
+
+}
+
+/* Fin del CSS de tipos de Tattoo */
+
+/* Css de los Comentarios de Colegas */
+
+.opinionesColegas {
+
+  background-color: #FFFAF0;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.opinionesColegas h2 {
+
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+
+.opinionesColegas h3 {
+
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+
+.flexbox {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 5% 20px 5%;
+
+}
+
+.comentarioPatricio {
+
+  display: block;
+  padding: auto;
+  text-align: center;
+  width: 30%;
+  min-width: 300px;
+}
+
+.comentarioPatricio img {
+
+  width: 180px;
+  height: 180px;
+
+}
+
+.comentarioPatricio p {
+
+  font-style: italic;
+  padding-bottom: 10px;
+  color: gray;
+
+}
+
+.comentarioPatricio h4 {
+
+  font-size: x-large;
+  color: #B3A384;
+
+}
+
+.comentarioPatricio h5 {
+
+  font-size: larger;
+  color: #728CB3;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.comentarioDiego {
+
+  display: block;
+  padding: auto;
+  text-align: center;
+  width: 30%;
+  min-width: 300px;
+
+}
+
+.comentarioDiego img {
+
+  width: 180px;
+  height: 180px;
+
+}
+
+.comentarioDiego p {
+
+  font-style: italic;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  color: gray;
+
+}
+
+.comentarioDiego h4 {
+
+  font-size: x-large;
+  color: #B3A384;
+
+}
+
+.comentarioDiego h5 {
+
+  font-size: larger;
+  color: #728CB3;
+  padding-bottom: 20px;
+
+}
+
+.comentarioHideo {
+
+  display: block;
+  padding: auto;
+  text-align: center;
+  width: 30%;
+  min-width: 300px;
+
+}
+
+.comentarioHideo img {
+
+  width: 180px;
+  height: 180px;
+
+}
+
+.comentarioHideo p {
+
+  font-style: italic;
+  padding-bottom: 10px;
+  color: gray;
+
+}
+
+.comentarioHideo h4 {
+
+  font-size: x-large;
+  color: #B3A384;
+
+}
+
+.comentarioHideo h5 {
+
+  font-size: larger;
+  color: #728CB3;
+  padding-top: 5px;
+}
+
+/* Fin del CSS de comentarios de Colegas */
+
+/* CSS de Fujin */
+
+.momijiFujin {
+
+  position: relative;
+  left: 0%;
+  top: 0%;
+
+}
+
+.fujin img {
+
+  position: absolute;
+  height: 200px;
+  z-index: 1;
+
+}
+
+.momijiUno img {
+
+  position: absolute;
+  z-index: 2;
+  height: 110px;
+  width: 110px;
+  top: 50px;
+  left: 200px;
+  animation-name: momijiUno;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes momijiUno {
+  0% {
+    left: 200px;
+    top: 50px;
+  }
+
+  25% {
+    left: 202px;
+    top: 53px;
+  }
+
+  50% {
+    left: 199px;
+    top: 55px;
+  }
+
+  75% {
+    left: 203px;
+    top: 52px;
+  }
+
+  100% {
+    left: 200px;
+    top: 50px;
+  }
+}
+
+.momijiDos img {
+
+  position: absolute;
+  z-index: 3;
+  height: 100px;
+  width: 100px;
+  top: 200px;
+  left: 150px;
+  animation-name: momijiDos;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes momijiDos {
+  0% {
+    left: 150px;
+    top: 200px;
+  }
+
+  25% {
+    left: 152px;
+    top: 203px;
+  }
+
+  50% {
+    left: 153px;
+    top: 201px;
+  }
+
+  75% {
+    left: 149px;
+    top: 205px;
+  }
+
+  100% {
+    left: 150px;
+    top: 200px;
+  }
+}
+
+
+.momijiTres img {
+
+  position: absolute;
+  z-index: 4;
+  height: 100px;
+  width: 100px;
+  top: 300px;
+  left: 290px;
+  animation-name: momijiTres;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes momijiTres {
+  0% {
+    left: 290px;
+    top: 300px;
+  }
+
+  25% {
+    left: 287px;
+    top: 301px;
+  }
+
+  50% {
+    left: 291px;
+    top: 295px;
+  }
+
+  75% {
+    left: 293px;
+    top: 304px;
+  }
+
+  100% {
+    left: 290px;
+    top: 300px;
+  }
+}
+
+.momijiOcho img {
+
+  position: absolute;
+  z-index: 0;
+  height: 120px;
+  width: 120px;
+  top: 300px;
+  left: 290px;
+  animation-name: momijiOcho;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes momijiOcho {
+  0% {
+    left: 40px;
+    top: 70px;
+  }
+
+  25% {
+    left: 45px;
+    top: 75px;
+  }
+
+  50% {
+    left: 35px;
+    top: 65px;
+  }
+
+  75% {
+    left: 50px;
+    top: 75px;
+  }
+
+  100% {
+    left: 40px;
+    top: 70px;
+  }
+}
+
+.momijiCuatro img {
+
+  position: absolute;
+  z-index: -1;
+  height: 100px;
+  width: 100px;
+  top: 10px;
+  left: 320px;
+  animation-name: momijiCuatro;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes momijiCuatro {
+  0% {
+    left: 320px;
+    top: 10px;
+  }
+
+  25% {
+    left: 323px;
+    top: 8px;
+  }
+
+  50% {
+    left: 319px;
+    top: 12px;
+  }
+
+  75% {
+    left: 322px;
+    top: 7pxpx;
+  }
+
+  100% {
+    left: 320px;
+    top: 10px;
+  }
+}
+
+/* Fin de CSS de Fujin */
+
+/* CSS Seccion de Tatuajes */
+
+.algunosTatoo {
+
+  width: 100%;
+  position: relative;
+  margin: auto;
+  background-color: #FFFAF0;
+  padding-bottom: 30px;
+
+}
+
+.algunosTatoo h2 {
+
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 30px 10px 0 10px;
+
+}
+
+.algunosTatoo h3 {
+
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+
+.momijiCinco img {
+
+  position: absolute;
+  z-index: 1;
+  height: 100px;
+  width: 100px;
+  animation-name: momijiCinco;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes momijiCinco {
+  0% {
+    left: 5px;
+    top: 100px;
+  }
+
+  25% {
+    left: 10px;
+    top: 105px;
+  }
+
+  50% {
+    left: 15px;
+    top: 120px;
+  }
+
+  75% {
+    left: 10px;
+    top: 105px;
+  }
+
+  100% {
+    left: 5px;
+    top: 100px;
+  }
+}
+
+.momijiSeis img {
+
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  animation-name: momijiSeis;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes momijiSeis {
+  0% {
+    left: 300px;
+    top: 430px;
+  }
+
+  25% {
+    left: 290px;
+    top: 400px;
+  }
+
+  50% {
+    left: 310px;
+    top: 380px;
+  }
+
+  75% {
+    left: 305px;
+    top: 400px;
+  }
+
+  100% {
+    left: 300px;
+    top: 430px;
+  }
+}
+
+/* Fin de CSS sección de tatuajes */
+
+/* Css del Separador con Una imagen */
+
+.preguntasTattoo {
+
+  display: block;
+
+}
+
+.preguntasTattoo img {
+
+  width: 100%;
+
+}
+
+/* FIN Css del Separador con Una imagen */
+
+
+.raijinVuela img {
+
+  position: absolute;
+  z-index: 1;
+  width: 300px;
+  animation-name: raijinVuela;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes raijinVuela {
+  0% {
+    left: -30px;
+    top: 150px;
+  }
+
+  25% {
+    left: -30px;
+    top: 150px;
+  }
+
+  50% {
+    left: -30px;
+    top: 150px;
+  }
+
+  75% {
+    left: -30px;
+    top: 150px;
+  }
+
+  100% {
+    left: -30px;
+    top: 150px;
+  }
+}
+
+.fujinVuela img {
+
+  position: absolute;
+  z-index: 1;
+  width: 300px;
+  animation-name: fujinVuela;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes fujinVuela {
+  0% {
+    left: 100px;
+    top: 150px;
+  }
+
+  25% {
+    left: 100px;
+    top: 150px;
+  }
+
+  50% {
+    left: 100px;
+    top: 150px;
+  }
+
+  75% {
+    left: 100px;
+    top: 150px;
+  }
+
+  100% {
+    left: 100px;
+    top: 150px;
+  }
+}
+
+.hojaUno img {
+
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  animation-name: hojaUno;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes hojaUno {
+  0% {
+    left: 20px;
+    top: 130px;
+  }
+
+  25% {
+    left: 25px;
+    top: 100px;
+  }
+
+  50% {
+    left: 15px;
+    top: 120px;
+  }
+
+  75% {
+    left: 25px;
+    top: 100px;
+  }
+
+  100% {
+    left: 20px;
+    top: 130px;
+  }
+}
+
+.hojaDos img {
+
+  position: absolute;
+  z-index: 1;
+  width: 150px;
+  animation-name: hojaDos;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes hojaDos {
+  0% {
+    left: 290px;
+    top: 750px;
+  }
+
+  25% {
+    left: 300px;
+    top: 730px;
+  }
+
+  50% {
+    left: 280px;
+    top: 740px;
+  }
+
+  75% {
+    left: 305px;
+    top: 760px;
+  }
+
+  100% {
+    left: 290px;
+    top: 750px;
+  }
+}
+
+.miraTattoos {
+
+  background-color: #D6E6FF;
+  color: black;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  position: relative;
+
+}
+
+.miraTattoos img {
+
+  width: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.miraTattoos a {
+
+  text-align: center;
+  text-decoration: none;
+  background-color: #728CB3;
+  color: #FFFAF0;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-large;
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s;
+
+}
+
+.miraTattoos a:hover {
+  background-color: #403C36;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.3s;
+
+}
+
+.miraTattoos iframe {
+
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-style: none;
+  width: 350px;
+  height: 300px;
+
+}
+
+.miraTattoos p {
+
+  padding-bottom: 20px;
+
+}
+
+.miraHoja img {
+
+  position: absolute;
+  z-index: 3;
+  height: 120px;
+  width: 120px;
+  animation-name: miraHoja;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes miraHoja {
+  0% {
+    left: 274px;
+    top: 6px;
+  }
+
+  25% {
+    left: 272x;
+    top: 10px;
+  }
+
+  50% {
+    left: 270px;
+    top: 3px;
+  }
+
+  75% {
+    left: 267px;
+    top: 10px;
+  }
+
+  100% {
+    left: 274px;
+    top: 6px;
+  }
+
+}
+
+footer {
+
+  text-align: center;
+  padding: 10px 0 10px 0;
+  background-color: black;
+  color: #FFFAF0;
+  font-size: small;
+}
+
+footer a {
+
+  color: white;
+  text-decoration: none;
+
+}
+
+.contenedorFujin {
+
+  display: none;
+
+}
+
+.contenedorRaijin {
+
+  display: none;
+
+}
+
+
+/* Comienza la sección Ipad */
+/* Comienza la sección Ipad */
+/* Comienza la sección Ipad */
+
+
+@media only screen and (min-width: 768px) {
+
+  header h1 {
+
+    text-align: center;
+    color: #728CB3;
+    font-size: 40px;
+    padding: 0px 30px 30px 30px;
+    letter-spacing: 1.5;
+  }
+
+
+  #contenedorDesktop {
+
+    width: 100%;
+    box-shadow: none;
+
+  }
+
+  .quienSoy h2 {
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 10px 0px 10px;
+
+  }
+
+  .quienSoy h3 {
+
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+
+  }
+
+  .quienSoy p {
+
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    font-size: x-large;
+    padding-bottom: 20px;
+  }
+
+  .algunosTatoo h2 {
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px 10px 0 10px;
+
+  }
+
+  .algunosTatoo h3 {
+
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0px 30px 30px 30px;
+
+  }
+
+  marquee img {
+
+    width: 4000px;
+    height: 275px;
+  }
+
+  .tipoTattoo h2 {
+
+    font-size: 30px;
+    color: #FFFAF0;
+    text-align: center;
+    padding-bottom: 10px;
+
+  }
+
+  .tipoTattoo h3 {
+
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #FFFAF0;
+
+  }
+
+  .tipoTattoo a {
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #FFF2D7;
+    color: #403C36;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: xx-large;
+    width: 50%;
+    margin-top: 10px;
+    transition: 0.3s;
+
+  }
+
+  .tipoTattoo a:hover {
+    background-color: #FFFAF0;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+  }
+
+  .tipoTattoo li {
+
+    color: white;
+    padding-bottom: 5px;
+    font-size: x-large;
+
+  }
+
+  .flexboxDos {
+
+    display: flex;
+    gap: 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    width: 90%;
+    margin: auto;
+
+  }
+
+  .tebori {
+
+    display: block;
+    text-align: center;
+    width: 29%;
+    min-width: 300px;
+  }
+
+  .tebori img {
+
+    width: 200px;
+    height: 200px;
+
+  }
+
+  .tebori p {
+
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #FFFAF0;
+    font-size: x-large;
+
+  }
+
+  .tebori h4 {
+
+    font-size: xx-large;
+    color: #FFF2D7;
+    padding-bottom: 5px;
+
+  }
+
+  .maquina {
+
+    display: block;
+    padding: auto;
+    text-align: center;
+    width: 29%;
+    min-width: 300px;
+
+  }
+
+  .maquina img {
+
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+
+  }
+
+  .maquina p {
+
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #FFFAF0;
+    font-size: x-large;
+
+  }
+
+  .maquina h4 {
+
+    font-size: xx-large;
+    color: #FFF2D7;
+    padding-bottom: 5px;
+
+  }
+
+  /* Fin del CSS de tipos de Tattoo */
+
+  /* Css de los Comentarios de Colegas */
+
+  .opinionesColegas h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 30px;
+
+  }
+
+  .opinionesColegas h3 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 28px;
+
+  }
+
+
+
+  .acerUno img {
+
+    position: absolute;
+    z-index: 2;
+    height: 180px;
+    width: 180px;
+    animation-name: acerUno;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  .flexbox {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 5% 20px 5%;
+    margin: auto;
+    gap: 5%;
+
+  }
+
+  .comentarioPatricio {
+
+    display: block;
+    padding: auto;
+    text-align: center;
+  }
+
+  .comentarioPatricio img {
+
+    width: 220px;
+    height: 220px;
+
+  }
+
+  .comentarioPatricio p {
+
+    font-style: italic;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    color: gray;
+    font-size: large;
+
+  }
+
+  .comentarioPatricio h4 {
+
+    font-size: xx-large;
+    color: #B3A384;
+
+  }
+
+  .comentarioPatricio h5 {
+
+    font-size: x-large;
+    color: #728CB3;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+  .comentarioDiego {
+
+    display: block;
+    padding: auto;
+    text-align: center;
+
+  }
+
+  .comentarioDiego img {
+
+    width: 220px;
+    height: 220px;
+
+  }
+
+  .comentarioDiego p {
+
+    font-style: italic;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    color: gray;
+    font-size: large;
+
+
+  }
+
+  .comentarioDiego h4 {
+
+    font-size: xx-large;
+    color: #B3A384;
+
+  }
+
+  .comentarioDiego h5 {
+
+    font-size: x-large;
+    color: #728CB3;
+    padding-bottom: 20px;
+
+  }
+
+
+  .comentarioHideo {
+
+    display: block;
+    padding: auto;
+    text-align: center;
+
+  }
+
+  .comentarioHideo img {
+
+    width: 220px;
+    height: 220px;
+
+  }
+
+  .comentarioHideo p {
+
+    font-style: italic;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    color: gray;
+    font-size: large;
+
+  }
+
+  .comentarioHideo h4 {
+
+    font-size: xx-large;
+    color: #B3A384;
+
+  }
+
+  .comentarioHideo h5 {
+
+    font-size: x-large;
+    color: #728CB3;
+    padding-top: 5px;
+  }
+
+
+  /* Fin del CSS de comentarios de Colegas */
+
+  .miraTattoos {
+
+    background-color: #D6E6FF;
+    color: black;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    position: relative;
+
+  }
+
+  .miraTattoos h2 {
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 10px 0px 10px;
+
+  }
+
+  .miraTattoos h3 {
+
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+
+  }
+
+  .miraTattoos img {
+
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .miraTattoos a {
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #728CB3;
+    color: #FFFAF0;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: xx-large;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .miraTattoos a:hover {
+    background-color: #403C36;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.3s;
+
+  }
+
+  .miraTattoos iframe {
+
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-style: none;
+    width: 650px;
+    height: 500px;
+
+  }
+
+  .miraTattoos p {
+
+    padding-bottom: 20px;
+    font-size: large;
+
+  }
+
+  footer {
+
+    padding: 15px 0px 15px 0px;
+    font-size: larger;
+  }
+
+  footer a {
+
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+
+  }
+
+  .miraHoja img {
+
+    position: absolute;
+    z-index: 3;
+    height: 120px;
+    width: 120px;
+    animation-name: miraHoja;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes miraHoja {
+    0% {
+      left: 274px;
+      top: 6px;
+    }
+
+    25% {
+      left: 272x;
+      top: 10px;
+    }
+
+    50% {
+      left: 270px;
+      top: 3px;
+    }
+
+    75% {
+      left: 267px;
+      top: 10px;
+    }
+
+    100% {
+      left: 274px;
+      top: 6px;
+    }
+
+  }
+
+
+  @keyframes acerUno {
+    0% {
+      left: -10px;
+      top: 50px;
+    }
+
+    25% {
+      left: -14px;
+      top: 53px;
+    }
+
+    50% {
+      left: -7px;
+      top: 49px;
+    }
+
+    75% {
+      left: -6px;
+      top: 52px;
+    }
+
+    100% {
+      left: -10px;
+      top: 50px;
+    }
+  }
+
+  .acerDos img {
+
+    position: absolute;
+    z-index: 3;
+    height: 200px;
+    width: 200px;
+    animation-name: acerDos;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes acerDos {
+    0% {
+      left: 574px;
+      top: 10px;
+    }
+
+    25% {
+      left: 572x;
+      top: 13px;
+    }
+
+    50% {
+      left: 570px;
+      top: 10x;
+    }
+
+    75% {
+      left: 567px;
+      top: 7px;
+    }
+
+    100% {
+      left: 574px;
+      top: 10px;
+    }
+
+  }
+
+
+  .acerTres img {
+
+    position: absolute;
+    z-index: 2;
+    height: 170px;
+    width: 170px;
+    animation-name: acerTres;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes acerTres {
+    0% {
+      left: 500px;
+      top: 160px;
+    }
+
+    25% {
+      left: 520px;
+      top: 165px;
+    }
+
+    50% {
+      left: 490px;
+      top: 150px;
+    }
+
+    75% {
+      left: 520px;
+      top: 165px;
+    }
+
+    100% {
+      left: 500px;
+      top: 160px;
+    }
+  }
+
+  #acerCuatro img {
+
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    animation-name: acerCuatro;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes acerCuatro {
+    0% {
+      left: 60px;
+      top: 280px;
+    }
+
+    25% {
+      left: 65px;
+      top: 290px;
+    }
+
+    50% {
+      left: 59px;
+      top: 285px;
+    }
+
+    75% {
+      left: 67px;
+      top: 293px;
+    }
+
+    100% {
+      left: 60px;
+      top: 280px;
+    }
+  }
+
+  #acerCinco img {
+
+    position: absolute;
+    z-index: 2;
+    width: 190px;
+    animation-name: acerCinco;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes acerCinco {
+    0% {
+      left: 570px;
+      top: 160px;
+    }
+
+    25% {
+      left: 575px;
+      top: 165px;
+    }
+
+    50% {
+      left: 569px;
+      top: 159px;
+    }
+
+    75% {
+      left: 574px;
+      top: 163px;
+    }
+
+    100% {
+      left: 570px;
+      top: 160px;
+    }
+  }
+
+  .momijiCinco img {
+
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+    width: 200px;
+    animation-name: momijiCinco;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes momijiCinco {
+    0% {
+      left: 5px;
+      top: 100px;
+    }
+
+    25% {
+      left: 10px;
+      top: 105px;
+    }
+
+    50% {
+      left: 15px;
+      top: 120px;
+    }
+
+    75% {
+      left: 10px;
+      top: 105px;
+    }
+
+    100% {
+      left: 5px;
+      top: 100px;
+    }
+  }
+
+  .momijiSeis img {
+
+    position: absolute;
+    z-index: 1;
+    width: 190px;
+    height: 190px;
+    animation-name: momijiSeis;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes momijiSeis {
+    0% {
+      left: 600px;
+      top: 430px;
+    }
+
+    25% {
+      left: 590px;
+      top: 400px;
+    }
+
+    50% {
+      left: 610px;
+      top: 380px;
+    }
+
+    75% {
+      left: 605px;
+      top: 400px;
+    }
+
+    100% {
+      left: 600px;
+      top: 430px;
+    }
+  }
+
+  .hojaUno img {
+
+    position: absolute;
+    z-index: 1;
+    width: 180px;
+    animation-name: hojaUno;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes hojaUno {
+    0% {
+      left: 20px;
+      top: 130px;
+    }
+
+    25% {
+      left: 25px;
+      top: 100px;
+    }
+
+    50% {
+      left: 15px;
+      top: 120px;
+    }
+
+    75% {
+      left: 25px;
+      top: 100px;
+    }
+
+    100% {
+      left: 20px;
+      top: 130px;
+    }
+  }
+
+  .hojaDos img {
+
+    position: absolute;
+    z-index: 1;
+    width: 230px;
+    animation-name: hojaDos;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes hojaDos {
+    0% {
+      left: 590px;
+      top: 650px;
+    }
+
+    25% {
+      left: 600px;
+      top: 630px;
+    }
+
+    50% {
+      left: 580px;
+      top: 640px;
+    }
+
+    75% {
+      left: 605px;
+      top: 660px;
+    }
+
+    100% {
+      left: 590px;
+      top: 650px;
+    }
+  }
+
+  .miraHoja img {
+
+    position: absolute;
+    z-index: 3;
+    height: 180px;
+    width: 180px;
+    animation-name: miraHoja;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes miraHoja {
+    0% {
+      left: 574px;
+      top: 6px;
+    }
+
+    25% {
+      left: 572x;
+      top: 10px;
+    }
+
+    50% {
+      left: 570px;
+      top: 3px;
+    }
+
+    75% {
+      left: 567px;
+      top: 10px;
+    }
+
+    100% {
+      left: 574px;
+      top: 6px;
+    }
+
+  }
+
+  .contenedorFujin {
+
+    display: none;
+    
+  }
+
+  .contenedorRaijin {
+
+    display: none;
+  
+  }
+
+}
+
+
+/* Comienza la sección Destokp */
+/* Comienza la sección Destokp */
+/* Comienza la sección Destokp */
+
+
+@media only screen and (min-width: 1024px) {
+
+  * {
+
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%
+  }
+
+  html,
+  body {
+
+    background-image: url(../imagenes/fondo-ladrillos.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    background-origin: border-box;
+
+  }
+
+
+  header h1 {
+
+    text-align: center;
+    color: #728CB3;
+    font-size: 40px;
+    padding: 20px 50px 30px 50px;
+    letter-spacing: 1.5;
+  }
+
+  #contenedorDesktop {
+
+    width: 75%;
+    margin: auto;
+    box-shadow: 5px 0px 20px black;
+
+
+  }
+
+  /* CSS del Navbar */
+
+
+  #navbar img {
+    float: left;
+    width: 170px;
+    margin-left: 15%;
+
+  }
+
+  #navbar {
+    background-color: #403C36;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 4;
+    filter: opacity(90%);
+  }
+
+  #navbar span {
+
+    font-size: 35px;
+    cursor: pointer;
+    color: white;
+    float: right;
+    margin-right: 10px;
+
+  }
+
+  #navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15%;
+  }
+
+  #navbar a:hover {
+    background-color: #BFB5A1;
+    color: black;
+    transition: 0.3s;
+
+  }
+
+
+  /* Fin de Css el Navbar */
+
+  footer {
+
+    width: 70%;
+    margin: auto;
+
+  }
+
+  .nikko img {
+
+    padding-top: 0px;
+    width: 70%;
+    display: block;
+    margin: auto;
+
+  }
+
+  .acerUno img {
+
+    position: absolute;
+    z-index: 2;
+    height: 150px;
+    width: 150px;
+    animation-name: acerUno;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+
+  @keyframes acerUno {
+    0% {
+      left: 300px;
+      top: 50px;
+    }
+
+    25% {
+      left: 310px;
+      top: 53px;
+    }
+
+    50% {
+      left: 320px;
+      top: 49px;
+    }
+
+    75% {
+      left: 310px;
+      top: 52px;
+    }
+
+    100% {
+      left: 300px;
+      top: 50px;
+    }
+  }
+
+  .acerDos img {
+
+    position: absolute;
+    z-index: 3;
+    height: 160px;
+    width: 160px;
+    animation-name: acerDos;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes acerDos {
+    0% {
+      left: 900px;
+      top: 10px;
+    }
+
+    25% {
+      left: 900x;
+      top: 13px;
+    }
+
+    50% {
+      left: 900px;
+      top: 10x;
+    }
+
+    75% {
+      left: 900px;
+      top: 7px;
+    }
+
+    100% {
+      left: 900px;
+      top: 10px;
+    }
+
+  }
+
+  .acerTres img {
+
+    position: absolute;
+    z-index: 2;
+    height: 140px;
+    width: 140px;
+    animation-name: acerTres;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes acerTres {
+    0% {
+      left: 960px;
+      top: 140px;
+    }
+
+    25% {
+      left: 965px;
+      top: 145px;
+    }
+
+    50% {
+      left: 970px;
+      top: 143px;
+    }
+
+    75% {
+      left: 965px;
+      top: 145px;
+    }
+
+    100% {
+      left: 960px;
+      top: 140px;
+    }
+  }
+
+  .quienSoy img {
+
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+
+  }
+
+  .quienSoy h2 {
+
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 10px 0px 10px;
+
+  }
+
+  .quienSoy h3 {
+
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+
+  }
+
+  .quienSoy p {
+
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: larger;
+    padding-top: 30px;
+
+  }
+
+  .vimeo {
+
+    background: #D6E6FF;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+
+  }
+
+  /* CSS Seccion de Tatuajes */
+
+  .algunosTatoo {
+
+    width: 100%;
+    position: relative;
+    margin: auto;
+    background-color: #FFFAF0;
+    padding-bottom: 30px;
+
+  }
+
+  .algunosTatoo h2 {
+
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px 10px 0 10px;
+
+  }
+
+  .algunosTatoo h3 {
+
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+
+  }
+
+  marquee img {
+
+    width: 4000px;
+    height: 250px;
+  }
+
+  .momijiCinco img {
+
+    position: absolute;
+    z-index: 1;
+    height: 140px;
+    width: 140px;
+    animation-name: momijiCinco;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes momijiCinco {
+    0% {
+      left: 20px;
+      top: 100px;
+    }
+
+    25% {
+      left: 25px;
+      top: 105px;
+    }
+
+    50% {
+      left: 30px;
+      top: 120px;
+    }
+
+    75% {
+      left: 25px;
+      top: 105px;
+    }
+
+    100% {
+      left: 20px;
+      top: 100px;
+    }
+  }
+
+  .momijiSeis img {
+
+    position: absolute;
+    z-index: 1;
+    height: 160px;
+    width: 160px;
+    animation-name: momijiSeis;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes momijiSeis {
+    0% {
+      left: 800px;
+      top: 580px;
+    }
+
+    25% {
+      left: 830px;
+      top: 590px;
+    }
+
+    50% {
+      left: 810px;
+      top: 570px;
+    }
+
+    75% {
+      left: 825px;
+      top: 590px;
+    }
+
+    100% {
+      left: 800px;
+      top: 580px;
+    }
+  }
+
+  .momijiOcho img {
+
+    position: absolute;
+    z-index: 0;
+    height: 130px;
+    width: 130px;
+    animation-name: momijiOcho;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes momijiOcho {
+    0% {
+      left: 50px;
+      top: 70px;
+    }
+
+    25% {
+      left: 55px;
+      top: 75px;
+    }
+
+    50% {
+      left: 50px;
+      top: 65px;
+    }
+
+    75% {
+      left: 59px;
+      top: 60px;
+    }
+
+    100% {
+      left: 50px;
+      top: 70px;
+    }
+  }
+
+  /* Fin de CSS sección de tatuajes */
+
+  /* Css del Separador con Una imagen */
+
+  .preguntasTattoo {
+
+    width: 100%;
+
+  }
+
+  .preguntasTattoo img {
+
+    width: 100%;
+    margin-bottom: 0%;
+
+  }
+
+  /* Fin de Css del Separador con Una imagen */
+
+  /* Css de los Comentarios de Colegas */
+
+  .opinionesColegas {
+
+    background-color: #FFFAF0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0%;
+
+  }
+
+  .opinionesColegas h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: xx-large;
+
+  }
+
+  .opinionesColegas h3 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: xx-large;
+
+  }
+
+  .flexbox {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 5% 20px 5%;
+
+  }
+
+  .flexbox a {
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #B3A384;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .flexbox a:hover {
+    background-color: #728CB3;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+  }
+
+  .comentarioPatricio {
+
+    display: block;
+    padding: auto;
+    text-align: center;
+    width: 30%;
+    min-width: 300px;
+  }
+
+  .comentarioPatricio img {
+
+    width: 180px;
+    height: 180px;
+
+  }
+
+  .comentarioPatricio p {
+
+    font-style: italic;
+    padding-bottom: 10px;
+    color: gray;
+    padding-right: 20px;
+    padding-left: 20px;
+
+  }
+
+  .comentarioPatricio h4 {
+
+    font-size: x-large;
+    color: #B3A384;
+
+  }
+
+  .comentarioPatricio h5 {
+
+    font-size: larger;
+    color: #728CB3;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+  .comentarioDiego {
+
+    display: block;
+    padding: auto;
+    text-align: center;
+    width: 30%;
+    min-width: 300px;
+
+
+  }
+
+  .comentarioDiego img {
+
+    width: 180px;
+    height: 180px;
+
+  }
+
+  .comentarioDiego p {
+
+    font-style: italic;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    color: gray;
+    padding-right: 20px;
+    padding-left: 20px;
+
+  }
+
+  .comentarioDiego h4 {
+
+    font-size: x-large;
+    color: #B3A384;
+
+  }
+
+  .comentarioDiego h5 {
+
+    font-size: larger;
+    color: #728CB3;
+    padding-bottom: 20px;
+
+  }
+
+  .comentarioHideo {
+
+    display: block;
+    padding: auto;
+    text-align: center;
+    width: 30%;
+    min-width: 300px;
+
+  }
+
+  .comentarioHideo img {
+
+    width: 180px;
+    height: 180px;
+
+  }
+
+  .comentarioHideo p {
+
+    font-style: italic;
+    padding-bottom: 10px;
+    color: gray;
+    padding-right: 20px;
+    padding-left: 20px;
+
+  }
+
+  .comentarioHideo h4 {
+
+    font-size: x-large;
+    color: #B3A384;
+
+  }
+
+  .comentarioHideo h5 {
+
+    font-size: larger;
+    color: #728CB3;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+  /* Fin del CSS de comentarios de Colegas */
+
+  /* Css de los tipos de tattoo*/
+
+  .tipoTattoo {
+
+    background-color: #B3A384;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+
+  }
+
+  .tipoTattoo h2 {
+
+    color: #FFFAF0;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: xx-large;
+
+  }
+
+  .tipoTattoo h3 {
+
+    text-align: center;
+    padding-bottom: 10px;
+    color: #FFFAF0;
+    font-size: xx-large;
+
+  }
+
+  .tipoTattoo li {
+
+    font-size: large;
+
+  }
+
+  .flexboxDos {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px 5% 20px 5%;
+
+  }
+
+  .tebori {
+
+    display: block;
+    padding: auto;
+    text-align: center;
+    width: 30%;
+    min-width: 300px;
+  }
+
+  .tebori img {
+
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+
+  }
+
+  .tebori p {
+
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    color: #FFFAF0;
+    font-size: large;
+
+  }
+
+  .tebori h4 {
+
+    font-size: x-large;
+    color: #FFF2D7;
+    padding-bottom: 10px;
+
+  }
+
+  .maquina {
+
+    display: block;
+    padding: auto;
+    text-align: center;
+    width: 30%;
+    min-width: 300px;
+
+  }
+
+  .maquina img {
+
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+
+
+  }
+
+  .maquina p {
+
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFAF0;
+    font-size: large;
+
+  }
+
+  .maquina h4 {
+
+    font-size: x-large;
+    color: #FFFAF0;
+    padding-bottom: 10px;
+
+  }
+
+  .miraTattoos iframe {
+
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-style: none;
+    width: 550px;
+    height: 300px;
+
+  }
+
+  .miraTattoos p {
+
+    padding-bottom: 20px;
+
+  }
+
+  .miraTattoos a {
+
+    margin-top: 20px;
+
+  }
+
+
+  .fujinRaijin {
+
+    display: none;
+  }
+
+  footer {
+
+    padding: 15px 0px 15px 0px;
+    font-size: large;
+  }
+
+  footer a {
+
+    color: white;
+    text-decoration: none;
+    font-size: large;
+
+  }
+
+  .miraHoja img {
+
+    position: absolute;
+    z-index: 3;
+    height: 200px;
+    width: 200px;
+    animation-name: miraHoja;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes miraHoja {
+    0% {
+      left: 774px;
+      top: 6px;
+    }
+
+    25% {
+      left: 772x;
+      top: 10px;
+    }
+
+    50% {
+      left: 770px;
+      top: 3px;
+    }
+
+    75% {
+      left: 767px;
+      top: 10px;
+    }
+
+    100% {
+      left: 774px;
+      top: 6px;
+    }
+
+  }
+
+  .hojaDos img {
+
+    position: absolute;
+    z-index: 1;
+    width: 230px;
+    animation-name: hojaDos;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  @keyframes hojaDos {
+    0% {
+      left: 820px;
+      top: 650px;
+    }
+
+    25% {
+      left: 800px;
+      top: 630px;
+    }
+
+    50% {
+      left: 780px;
+      top: 640px;
+    }
+
+    75% {
+      left: 805px;
+      top: 660px;
+    }
+
+    100% {
+      left: 820px;
+      top: 650px;
+    }
+  }
+
+  /* Fin del CSS de tipos de Tattoo */
+
+  /* Fujin Footer */
+
+  .momijiFujin {
+
+    position: relative;
+    
+    }
+    
+    .fujin img {
+    
+    position:absolute;
+    height:700px;
+    width:700px;
+    top: 30px;
+    left : 160px;
+    z-index: 1;
+    animation-name: fujin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+    }
+
+    @keyframes fujin {
+      0%   {left:190px; top:50px;}
+      25%  {left:185px; top:53px;}
+      50%  {left:195px; top:55px;}
+      75%  {left:185px; top:52px;}
+      100% {left:190px; top:50px;}
+      }
+    
+    .momijiUno img{
+    
+    position: absolute;
+    z-index: 1;
+    height: 180px;
+    width: 180px;
+    animation-name: momijiUno;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    }
+    
+    
+    @keyframes momijiUno {
+    0%   {left:350px; top:50px;}
+    25%  {left:352px; top:53px;}
+    50%  {left:346px; top:55px;}
+    75%  {left:356px; top:52px;}
+    100% {left:350px; top:50px;}
+    }
+    
+    .momijiDos img{
+    
+    position: absolute;
+    z-index: 3;
+    height: 200px;
+    width: 200px;
+    animation-name: momijiDos;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+    }
+    
+    @keyframes momijiDos {
+    0%   {left:150px; top: 200px;}
+    25%  {left: 152px; top:203px;}
+    50%  {left:153px; top:201px;}
+    75%  {left:149px; top:205px;}
+    100% {left:150px; top:200px;}
+    }
+    
+    
+    .momijiTres img{
+    
+    position: absolute;
+    z-index: 4;
+    height: 170px;
+    width: 170px;
+    animation-name: momijiTres;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+    }
+    
+    @keyframes momijiTres {
+    0%   {left:490px; top: 500px;}
+    25%  {left:487px; top:501px;}
+    50%  {left:491px; top:510px;}
+    75%  {left:493px; top:504px;}
+    100% {left:490px; top:500px;}
+    }
+
+    #acerCinco img {
+
+      position: absolute;
+      z-index: 2;
+      width: 190px;
+      animation-name: acerCinco;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+  
+    }
+  
+    @keyframes acerCinco {
+      0% {
+        left: 670px;
+        top: 160px;
+      }
+  
+      25% {
+        left: 675px;
+        top: 165px;
+      }
+  
+      50% {
+        left: 669px;
+        top: 159px;
+      }
+  
+      75% {
+        left: 674px;
+        top: 163px;
+      }
+  
+      100% {
+        left: 670px;
+        top: 160px;
+      }
+    }
+    
+    .contenedorFujin {
+    
+      display: block;
+        position: absolute;
+        top: 10px;
+        left: 530px;
+    }
+  
+    .momijiRaijin {
+
+      position: relative;
+      left: 0%;
+      top: 0%;
+      
+      }
+      
+      .raijin img {
+      
+          position:absolute;
+          height:700px;
+          width:700px;
+          top: 30px;
+          left : 160px;
+          z-index: 1;
+          animation-name: raijin;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+      
+      }
+      
+      @keyframes raijin {
+            0%   {left:10px; top:50px;}
+            25%  {left:10px; top:53px;}
+            50%  {left:10px; top:55px;}
+            75%  {left:10px; top:52px;}
+            100% {left:10px; top:50px;}
+            }
+      
+      .raijinUno img{
+      
+      position: absolute;
+      z-index: 2;
+      height: 110px;
+      width: 110px;
+      top: 50px;
+      left: 200px;
+      animation-name: raijinUno;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      }
+      
+      
+      @keyframes raijinUno {
+      0%   {left:400px; top:50px;}
+      25%  {left:402px; top:53px;}
+      50%  {left:399px; top:55px;}
+      75%  {left:403px; top:52px;}
+      100% {left:400px; top:50px;}
+      }
+      
+      .raijinDos img{
+      
+      position: absolute;
+      z-index: 3;
+      height: 180px;
+      width: 180px;
+      top: 200px;
+      left: 150px;
+      animation-name: raijinDos;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      
+      }
+      
+      @keyframes raijinDos {
+      0%   {left:150px; top: 500px;}
+      25%  {left: 152px; top:503px;}
+      50%  {left:153px; top:501px;}
+      75%  {left:149px; top:505px;}
+      100% {left:150px; top:500px;}
+      }
+      
+      
+      .raijinTres img{
+      
+      position: absolute;
+      z-index: 4;
+      height: 150px;
+      width: 150px;
+      top: 300px;
+      left: 290px;
+      animation-name: raijinTres;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      
+      }
+      
+      @keyframes raijinTres {
+      0%   {left:490px; top: 300px;}
+      25%  {left:487px; top:301px;}
+      50%  {left:491px; top:295px;}
+      75%  {left:493px; top:304px;}
+      100% {left:490px; top:300px;}
+      }
+      
+      .contenedorRaijin {
+        display: block;
+          position: absolute;
+          top: -130px;
+          left: -370px;
+      }
+
+
+}
